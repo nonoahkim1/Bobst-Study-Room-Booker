@@ -3,7 +3,7 @@ Bobst Study Room Booker
 # How to add accounts on Duo Mobile.
 0. You must be able to approve duo push notification in order to get an activation link. If you don't, ask the account owner to complete steps 1 to 9.
 1. Log in to NYU website (ex. Brightspace or Albert). DO NOT APPROVE DUO PUSH NOTIFICATION!!!
-![step1](images/1.%20Login.png) 
+<img src="https://github.com/nonoahkim1/Bobst-Study-Room-Booker/blob/main/images/1.%20Login.png" alt="Step_1" width="300">
 2. Select 'Other options'.
 3. Select 'Manage devices' at the bottom.
 4. Approve duo push notification
