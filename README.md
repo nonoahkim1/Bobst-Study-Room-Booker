@@ -1,7 +1,8 @@
-Bobst Study Room Booker
+# Bobst Study Room Booker
 
-# How to add accounts on Duo Mobile.
-You must be able to approve duo push notification in order to get an activation link. If you don't, ask the account owner to complete steps 1 to 9.
+## How to add accounts on Duo Mobile.
+You must be able to approve duo push notification in order to get an activation link. If you do not have the access, ask the account owner to complete steps 1 to 9.
+
 1. Log in to NYU website (ex. Brightspace or Albert). DO NOT APPROVE DUO PUSH NOTIFICATION!!!
 <img src="https://github.com/nonoahkim1/Bobst-Study-Room-Booker/blob/main/images/1.%20Login.png" alt="Step_1" width="300">
 
@@ -35,7 +36,7 @@ You must be able to approve duo push notification in order to get an activation 
 
 Note: You must change your device name in order for the program to work properly. You may choose to use different device name, but you must modify the device name in line ## of the code and change all the device names on all of the account you are using. 
 
-# User credentials (usernames and passwords).
+## User credentials (usernames and passwords).
 Store user credentials in "credentials.txt".
 
 credentials.txt
@@ -43,7 +44,7 @@ abc123, Password123!
 abc123, Password123!
 ...
 
-# How to automatically approve duo push notification.
+## How to automatically approve duo push notification.
 1. Download android emulator. I used Genymotion for MacOS and Bluestack for Windows.
 2. Download 'Automate' applications from Play Store.
 3. Open 'Automate' -> go to 'Community' -> search and download 'Fixed Duo Auto-Authenticator 1.0' -> go to 'Settings' -> enable 'Run on system startup' -> go to 'Flows' -> click and start 'Fixed Duo Auto-Authenticator 1.0'
@@ -52,7 +53,7 @@ abc123, Password123!
 
 Note: The program will launch the emulator, and the duo push notifications will be automatically be approved since the 'Fixed Duo Auto-Authenticator 1.0' will be running when the device starts. 
 
-# How do save reservation screenshot to google drive.
+## How do save reservation screenshot to google drive.
 
-# How to set up Genymotion in code.
+## How to set up Genymotion in code.
 Get device name from 
