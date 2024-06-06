@@ -1,17 +1,34 @@
 Bobst Study Room Booker
 
 # How to add accounts on Duo Mobile.
-0. You must be able to approve duo push notification in order to get an activation link. If you don't, ask the account owner to complete steps 1 to 9.
+You must be able to approve duo push notification in order to get an activation link. If you don't, ask the account owner to complete steps 1 to 9.
 1. Log in to NYU website (ex. Brightspace or Albert). DO NOT APPROVE DUO PUSH NOTIFICATION!!!
-<img src="https://github.com/nonoahkim1/Bobst-Study-Room-Booker/blob/main/images/1.%20Login.png" alt="Step_1" width="300" style="margin-left: 20px;">
+<img src="https://github.com/nonoahkim1/Bobst-Study-Room-Booker/blob/main/images/1.%20Login.png" alt="Step_1" width="300">
+
 2. Select 'Other options'.
+<img src="https://github.com/nonoahkim1/Bobst-Study-Room-Booker/blob/main/images/2.%20Other%20options.png" alt="Step_2" width="300">
+
 3. Select 'Manage devices' at the bottom.
+<img src="https://github.com/nonoahkim1/Bobst-Study-Room-Booker/blob/main/images/3.%20Manage%20devices.png" alt="Step_3" width="300">
+
 4. Approve duo push notification
+<img src="https://github.com/nonoahkim1/Bobst-Study-Room-Booker/blob/main/images/4.%20Verify.png" alt="Step_4" width="300">
+
 5. Select 'Add a device'.
+<img src="https://github.com/nonoahkim1/Bobst-Study-Room-Booker/blob/main/images/5.%20Add%20a%20device.png" alt="Step_5" width="300">
+
 6. Select 'Duo Mobile'.
+<img src="https://github.com/nonoahkim1/Bobst-Study-Room-Booker/blob/main/images/6.%20Duo%20Mobile.png" alt="Step_6" width="300">
+
 7. Select 'I have a table'.
+<img src="https://github.com/nonoahkim1/Bobst-Study-Room-Booker/blob/main/images/7.%20I%20have%20a%20tablet.png" alt="Step_7" width="300">
+
 8. Select 'Next'.
+<img src="https://github.com/nonoahkim1/Bobst-Study-Room-Booker/blob/main/images/8.%20Next.png" alt="Step_8" width="300">
+
 9. Select 'Get an activation link instead' and enter your email.
+<img src="https://github.com/nonoahkim1/Bobst-Study-Room-Booker/blob/main/images/9.%20Get%20an%20activation%20link%20instead.png" alt="Step_9" width="300">
+
 10. Open the activation link on your emulator. (Tip: use Gmail application already installed on your emulator)
 11. Optional: Name the account with the account owner's name (ex. John Doe). 
 12. Go back to Step 3 ('Manage devices') and edit the device name to 'Genymobile'
