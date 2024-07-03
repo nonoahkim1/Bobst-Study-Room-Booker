@@ -43,7 +43,8 @@ In the Python script, you need to change the following lines:
 1. Line 33: Set the device_name variable to the name of your Genymotion virtual device.
 2. Line 36: Set the genymotion_path variable to the path where gmtool is located.
 
-You can list all Genymotion virtual devices by running `/Applications/Genymotion.app/Contents/MacOS/gmtool admin list` in the Terminal.
+You can list all Genymotion virtual devices using Terminal by running 
+`/Applications/Genymotion.app/Contents/MacOS/gmtool admin list`.
 
 
 ## How to add accounts on Duo Mobile.
