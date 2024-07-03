@@ -60,16 +60,19 @@ Note: The program will launch the emulator, and the duo push notifications will 
 Step 1: Download and Install Google Drive
 * Visit the Google Drive download page and download the Google Drive for desktop application.
 * Open the downloaded file and follow the on-screen instructions to install the application.
+
 Step 2: Set Up Google Drive
 * After installation, open Google Drive for desktop and sign in with your Google account.
 * Select which folders from your Google Drive you want to sync with your computer.
 * Choose a location on your computer where the Google Drive folder will be created.
+
 Step 3: Create a Google Drive Folder on Your Local Laptop
 * Open File Explorer (Windows) or Finder (Mac).
 * Find the Google Drive folder, which is usually located in your user folder (e.g., C:\Users\YourName\Google Drive on Windows or /Users/YourName/Google Drive on Mac).
 * Inside the Google Drive folder, right-click (Windows) or Control-click (Mac).
 * Select New > Folder.
 * Name your new folder.
+
 Step 4: Update Your Code to Use the Google Drive Path
 * Replace the existing path in line 434 of main.py with your Google Drive path.
 
