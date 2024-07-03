@@ -3,13 +3,26 @@
 The Bobst Library Study Room Booker is an automated tool developed using Selenium in Python to streamline the reservation process for study rooms at NYU's Bobst Library. This project automates the entire booking process, including logging into the reservation system, selecting preferred time slots, and handling two-factor authentication via Duo Mobile using an Android emulator. Additionally, the tool captures and uploads screenshots of the reservations to Google Drive, allowing easy access and sharing of the booked slots with other users. This project significantly reduces the time and effort required for booking study rooms, ensuring an efficient and seamless reservation experience.
 
 
+## Technical Details
+* **Programming Language**: **Python** is used to automate the reservation process, including web interactions and handling two-factor authentication.
+* **Automation Framework**: **Selenium WebDriver** is employed for web automation to interact with the NYU Bobst Library reservation system.
+* **Browser Configuration**: **Chrome** is configured with specific user profiles and options to maintain session data and ensure a seamless login experience.
+* **Emulator Setup**: **Genymotion** is used to emulate an Android environment for handling Duo Mobile push notifications.
+* **File Storage**: User credentials are securely stored in a **local text file**, and reservation screenshots are saved to a specified Google Drive folder.
+* **Command-Line Integration**: The script utilizes Genymotion's **gmtool command-line utility** to start and manage virtual devices.
+* **Error Handling and Logging**: Comprehensive error handling and logging mechanisms are implemented to ensure smooth operation and easy debugging.
+* **Scheduling and Time Management**: Python's **datetime** and **time modules** are used to manage scheduling, time calculations, and delays during the booking process.
+
+
 ## How to store user credentials (usernames and passwords).
 Store user credentials in "credentials.txt".
 
-credentials.txt
+credentials.txt__
+```
 abc123, Password123!
-abc123, Password123!
+def456, Password456!
 ...
+```
 
 
 ## How do save reservation screenshot to google drive.
@@ -43,7 +56,8 @@ In the Python script, you need to change the following lines:
 1. Line 33: Set the device_name variable to the name of your Genymotion virtual device.
 2. Line 36: Set the genymotion_path variable to the path where gmtool is located.
 
-You can list all Genymotion virtual devices by running `/Applications/Genymotion.app/Contents/MacOS/gmtool admin list` in the Terminal.
+You can list all Genymotion virtual devices using Terminal by running <br />
+`/Applications/Genymotion.app/Contents/MacOS/gmtool admin list`.
 
 
 ## How to add accounts on Duo Mobile.
