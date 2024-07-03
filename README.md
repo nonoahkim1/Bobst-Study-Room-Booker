@@ -91,3 +91,25 @@ Note: You must change your device name in order for the program to work properly
 5. Add accounts.
 
 Note: The program will launch the emulator, and the duo push notifications will be automatically be approved since the 'Fixed Duo Auto-Authenticator 1.0' will be running when the device starts. 
+
+
+## Service Agreement
+The service_agreement folder contains a document outlining the terms and conditions under which the OWNER will store and use the USERS' login credentials for the sole purpose of reserving study rooms at the NYU Bobst Library through an automated program. The agreement ensures privacy and security measures between the OWNER and the USERS.
+
+**Key Points of the Service Agreement:**
+1. Introduction: Defines the parties involved – the OWNER and the USER.
+2. Purpose: Specifies that the credentials will be used only for reserving study rooms at NYU Bobst Library.
+3. Retrieval and Storage of Credentials:
+  * Credentials will be retrieved through secure means and deleted immediately if retrieved online.
+  * Credentials will be stored securely in a text file within the OWNER's local repository.
+4. Use of Credentials:
+  * Credentials will only be used for the specified purpose and not shared with third parties.
+5. Security Measures:
+  * The OWNER will ensure the security and confidentiality of the credentials.
+6. Acknowledgment and Acceptance:
+  * USERS acknowledge and accept the terms by signing the agreement.
+7. Termination:
+  * The agreement remains in effect until the USERS request deletion of their credentials or upon graduation.
+  * The document in the service_agreement folder formalizes the responsibilities of the OWNER and ensures that the USERS' credentials are handled with the utmost care and privacy.
+
+For further details, please refer to the service_agreement folder in the root directory.
