@@ -6,10 +6,12 @@ The Bobst Library Study Room Booker is an automated tool developed using Seleniu
 ## How to store user credentials (usernames and passwords).
 Store user credentials in "credentials.txt".
 
-credentials.txt
+credentials.txt__
+```
 abc123, Password123!
-abc123, Password123!
+def456, Password456!
 ...
+```
 
 
 ## How do save reservation screenshot to google drive.
