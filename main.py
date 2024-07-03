@@ -431,7 +431,8 @@ if __name__ == '__main__':
         start_time, end_time = getStartEndTime(target_slot_time)
 
         # Save screenshot to google drive
-        screenshot_path = f'/Users/ye-damkim/Library/CloudStorage/GoogleDrive-ydk222@nyu.edu/My Drive/Bobst Group Study Room Reservation/{date_in_two_weeks.month:02}-{date_in_two_weeks.day:02}'
+        your_google_drive_path = '/Users/ye-damkim/Library/CloudStorage/GoogleDrive-ydk222@nyu.edu/My Drive/Bobst Group Study Room Reservation'
+        screenshot_path = f'{your_google_drive_path}/{date_in_two_weeks.month:02}-{date_in_two_weeks.day:02}'
         screenshot_filename = f'{user}. {start_time}~{end_time}.png'
 
         driver.save_screenshot(os.path.join(screenshot_path, screenshot_filename))
