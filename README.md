@@ -2,6 +2,50 @@
 
 The Bobst Library Study Room Booker is an automated tool developed using Selenium in Python to streamline the reservation process for study rooms at NYU's Bobst Library. This project automates the entire booking process, including logging into the reservation system, selecting preferred time slots, and handling two-factor authentication via Duo Mobile using an Android emulator. Additionally, the tool captures and uploads screenshots of the reservations to Google Drive, allowing easy access and sharing of the booked slots with other users. This project significantly reduces the time and effort required for booking study rooms, ensuring an efficient and seamless reservation experience.
 
+
+## User credentials (usernames and passwords).
+Store user credentials in "credentials.txt".
+
+credentials.txt
+abc123, Password123!
+abc123, Password123!
+...
+
+
+## How do save reservation screenshot to google drive.
+
+Step 1: Download and Install Google Drive
+* Visit the Google Drive download page and download the Google Drive for desktop application.
+* Open the downloaded file and follow the on-screen instructions to install the application.
+
+Step 2: Set Up Google Drive
+* After installation, open Google Drive for desktop and sign in with your Google account.
+* Select which folders from your Google Drive you want to sync with your computer.
+* Choose a location on your computer where the Google Drive folder will be created.
+
+Step 3: Create a Google Drive Folder on Your Local Laptop
+* Open File Explorer (Windows) or Finder (Mac).
+* Find the Google Drive folder, which is usually located in your user folder (e.g., C:\Users\YourName\Google Drive on Windows or /Users/YourName/Google Drive on Mac).
+* Inside the Google Drive folder, right-click (Windows) or Control-click (Mac).
+* Select New > Folder.
+* Name your new folder.
+
+Step 4: Update Your Code to Use the Google Drive Path
+* Replace the existing path in line 434 of main.py with your Google Drive path.
+
+
+## How to set up Genymotion in code.
+### Prerequisites
+* Install Genymotion: Download and install Genymotion from the official website:[Genymotion Download](https://www.genymotion.com/product-desktop/download/)
+* Install Genymotion Command-Line Tool: Ensure the gmtool is installed. It should be included with your Genymotion installation.
+
+In the Python script, you need to change the following lines:
+1. Line 33: Set the device_name variable to the name of your Genymotion virtual device.
+2. Line 36: Set the genymotion_path variable to the path where gmtool is located.
+
+You can list all Genymotion virtual devices by running `/Applications/Genymotion.app/Contents/MacOS/gmtool admin list` in the Terminal.
+
+
 ## How to add accounts on Duo Mobile.
 You must be able to approve duo push notification in order to get an activation link. If you do not have the access, ask the account owner to complete steps 1 to 9.
 
@@ -38,13 +82,6 @@ You must be able to approve duo push notification in order to get an activation 
 
 Note: You must change your device name in order for the program to work properly. You may choose to use different device name, but you must modify the device name in line ## of the code and change all the device names on all of the account you are using. 
 
-## User credentials (usernames and passwords).
-Store user credentials in "credentials.txt".
-
-credentials.txt
-abc123, Password123!
-abc123, Password123!
-...
 
 ## How to automatically approve duo push notification.
 1. Download android emulator. I used Genymotion for MacOS and Bluestack for Windows.
@@ -54,35 +91,3 @@ abc123, Password123!
 5. Add accounts.
 
 Note: The program will launch the emulator, and the duo push notifications will be automatically be approved since the 'Fixed Duo Auto-Authenticator 1.0' will be running when the device starts. 
-
-## How do save reservation screenshot to google drive.
-
-Step 1: Download and Install Google Drive
-* Visit the Google Drive download page and download the Google Drive for desktop application.
-* Open the downloaded file and follow the on-screen instructions to install the application.
-
-Step 2: Set Up Google Drive
-* After installation, open Google Drive for desktop and sign in with your Google account.
-* Select which folders from your Google Drive you want to sync with your computer.
-* Choose a location on your computer where the Google Drive folder will be created.
-
-Step 3: Create a Google Drive Folder on Your Local Laptop
-* Open File Explorer (Windows) or Finder (Mac).
-* Find the Google Drive folder, which is usually located in your user folder (e.g., C:\Users\YourName\Google Drive on Windows or /Users/YourName/Google Drive on Mac).
-* Inside the Google Drive folder, right-click (Windows) or Control-click (Mac).
-* Select New > Folder.
-* Name your new folder.
-
-Step 4: Update Your Code to Use the Google Drive Path
-* Replace the existing path in line 434 of main.py with your Google Drive path.
-
-## How to set up Genymotion in code.
-### Prerequisites
-* Install Genymotion: Download and install Genymotion from the official website:[Genymotion Download](https://www.genymotion.com/product-desktop/download/)
-* Install Genymotion Command-Line Tool: Ensure the gmtool is installed. It should be included with your Genymotion installation.
-
-In the Python script, you need to change the following lines:
-1. Line 33: Set the device_name variable to the name of your Genymotion virtual device.
-2. Line 36: Set the genymotion_path variable to the path where gmtool is located.
-
-You can list all Genymotion virtual devices by running `/Applications/Genymotion.app/Contents/MacOS/gmtool admin list` in the Terminal.
