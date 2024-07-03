@@ -3,7 +3,7 @@
 The Bobst Library Study Room Booker is an automated tool developed using Selenium in Python to streamline the reservation process for study rooms at NYU's Bobst Library. This project automates the entire booking process, including logging into the reservation system, selecting preferred time slots, and handling two-factor authentication via Duo Mobile using an Android emulator. Additionally, the tool captures and uploads screenshots of the reservations to Google Drive, allowing easy access and sharing of the booked slots with other users. This project significantly reduces the time and effort required for booking study rooms, ensuring an efficient and seamless reservation experience.
 
 
-## User credentials (usernames and passwords).
+## How to store user credentials (usernames and passwords).
 Store user credentials in "credentials.txt".
 
 credentials.txt
