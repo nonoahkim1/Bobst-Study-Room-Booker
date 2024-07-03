@@ -77,4 +77,12 @@ Step 4: Update Your Code to Use the Google Drive Path
 * Replace the existing path in line 434 of main.py with your Google Drive path.
 
 ## How to set up Genymotion in code.
-Get device name from 
+### Prerequisites
+* Install Genymotion: Download and install Genymotion from the official website:[Genymotion Download](https://www.genymotion.com/product-desktop/download/)
+* Install Genymotion Command-Line Tool: Ensure the gmtool is installed. It should be included with your Genymotion installation.
+
+In the Python script, you need to change the following lines:
+1. Line 33: Set the device_name variable to the name of your Genymotion virtual device.
+2. Line 36: Set the genymotion_path variable to the path where gmtool is located.
+
+You can list all Genymotion virtual devices by running `/Applications/Genymotion.app/Contents/MacOS/gmtool admin list` in the Terminal.
